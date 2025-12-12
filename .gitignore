@@ -1,0 +1,36 @@
+# --- Python Basics ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# --- Project Atlas Data Outputs ---
+# We generally do not want to push generated data to GitHub
+data/
+*.csv
+*.xlsx
+
+# Specifically ignoring the files mentioned in your docs:
+data/top_quality_value_stocks.csv
+data/company_master_list.csv
+data/sector_fundamentals.csv
+data/target_list_for_scrapers.csv
+data/raw_news_data.csv
+data/f319_smart_filtered.csv
+data/processed_sentiment.csv
+data/target_list_with_forensics.csv
+data/final_target_list.csv
+MASTER_INVESTMENT_DASHBOARD.csv
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Data & Outputs ---
+*.csv
+data/
+*.code-workspace
